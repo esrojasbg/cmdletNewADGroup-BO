@@ -1,0 +1,58 @@
+$domainName="DC=ganasafi,DC=com,DC=bo"
+
+NEW-ADOrganizationalUnit “Oruro” –path “$domainName”
+$Ciudad="OU=Oruro,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+
+NEW-ADOrganizationalUnit “La Paz” –path “$domainName”
+$Ciudad="OU=La Paz,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+NEW-ADOrganizationalUnit “Cochabamba” –path “$domainName”
+$Ciudad="OU=Cochabamba,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+
+NEW-ADOrganizationalUnit “Trinidad” –path “$domainName”
+$Ciudad="OU=Trinidad,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+NEW-ADOrganizationalUnit “Sucre” –path “$domainName”
+$Ciudad="OU=Sucre,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+
+NEW-ADOrganizationalUnit “Tarija” –path “$domainName”
+$Ciudad="OU=Tarija,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+NEW-ADOrganizationalUnit “Riberalta” –path “$domainName”
+$Ciudad="OU=Riberalta,$domainName"
+NEW-ADOrganizationalUnit “Equipos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Grupos” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Servers” –path “$Ciudad”
+NEW-ADOrganizationalUnit “Usuarios” –path “$Ciudad”
+
+
+
+NEW-ADOrganizationalUnit “ADM_Grupos_Servicios” –path “$domainName”
+NEW-ADOrganizationalUnit “ADM_Usuarios_Servicios” –path “$domainName”
